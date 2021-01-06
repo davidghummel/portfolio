@@ -1,7 +1,10 @@
 body {
-  margin: 20px;
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
   padding: 0px;
   text-align: center;
+  font-family: work sans;
 }
 .container {
   display: grid;
@@ -18,7 +21,7 @@ body {
 .gallery-item .image {
   width: 100%;
   height: 100%;
-  xoverflow: hidden;
+  overflow: hidden;
 }
 .gallery-item .image img {
   width: 100%;
@@ -54,42 +57,4 @@ body {
 .landscape {
   grid-column: span 2;
   grid-row: span 1;
-}
-
-.w-1 {
-  grid-column: span 1;
-}
-.w-2 {
-  grid-column: span 2;
-}
-.w-3 {
-  grid-column: span 3;
-}
-.w-4 {
-  grid-column: span 4;
-}
-.w-5 {
-  grid-column: span 5;
-}
-.w-6 {
-  grid-column: span 6;
-}
-
-.h-1 {
-  grid-row: span 1;
-}
-.h-2 {
-  grid-row: span 2;
-}
-.h-3 {
-  grid-row: span 3;
-}
-.h-4 {
-  grid-row: span 4;
-}
-.h-5 {
-  grid-row: span 5;
-}
-.h-6 {
-  grid-row: span 6;
 }

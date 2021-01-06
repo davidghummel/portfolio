@@ -1,0 +1,43 @@
+#head {
+  width: 100%;
+  margin-bottom: 0%;
+}
+#header {
+  text-align: center;
+  font-size: 350%;
+  margin-bottom: 0%;
+}
+#nav-bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 100%;
+}
+a:hover {
+  color: #000000;
+  font-size: 105%;
+}
+
+.button {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0%;
+  padding: 0%;
+}
+#gallery {
+  margin: 10px 50px;
+}
+img {
+  transition: 0.5s;
+  padding: 10px;
+  width: 24%;
+}
+#gallery img:hover {
+  transform: scale(1.03);
+}

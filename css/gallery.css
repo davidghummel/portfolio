@@ -48,7 +48,7 @@ body {
   transition: 0.3s ease-in-out;
 }
 .gallery-item:hover .text {
-  opacity: 100%;
+  opacity: 0%;
 }
 .portrait {
   grid-column: span 1;
